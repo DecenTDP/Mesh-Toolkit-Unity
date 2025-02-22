@@ -11711,6 +11711,59 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1898136048}
   m_Mesh: {fileID: 4300010, guid: 52801e7e72ff2ab429e4616e1873c796, type: 3}
+--- !u!1 &1928936182
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1928936183}
+  - component: {fileID: 1928936184}
+  m_Layer: 0
+  m_Name: TeleportLocationWindTurbine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1928936183
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1928936182}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0.7933534, z: -0, w: -0.60876137}
+  m_LocalPosition: {x: 6, y: 56, z: 60}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2064222699}
+  m_LocalEulerAnglesHint: {x: 0, y: 255, z: 0}
+--- !u!114 &1928936184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1928936182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1211175015, guid: 4215dfc0be7da4a47a6346b7585b79fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LookAtTransform: {fileID: 0}
+  Radius: 3
+  SingleTravel: 0
+--- !u!4 &2064222699 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6024136777310233470, guid: af2c575c354a79d42a896a47711f6984,
+    type: 3}
+  m_PrefabInstance: {fileID: 29754155317308235}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2070443223
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11975,13 +12028,19 @@ PrefabInstance:
         type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Button","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TeleportLocation","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 4675062755322818293, guid: af2c575c354a79d42a896a47711f6984,
         type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4675062755322818293, guid: af2c575c354a79d42a896a47711f6984,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[1]
+      value: 
+      objectReference: {fileID: 1928936182}
     - target: {fileID: 4900227873892414945, guid: af2c575c354a79d42a896a47711f6984,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -12005,7 +12064,11 @@ PrefabInstance:
     - {fileID: 29754155524424427, guid: af2c575c354a79d42a896a47711f6984, type: 3}
     m_RemovedGameObjects:
     - {fileID: 29754156238891740, guid: af2c575c354a79d42a896a47711f6984, type: 3}
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 6024136777310233470, guid: af2c575c354a79d42a896a47711f6984,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1928936183}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8990432577303741133, guid: af2c575c354a79d42a896a47711f6984,
         type: 3}
