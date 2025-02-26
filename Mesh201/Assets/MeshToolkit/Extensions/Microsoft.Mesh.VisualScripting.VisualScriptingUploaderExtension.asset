@@ -9,7 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -2052835481, guid: 3feef3ad652403c42a26abdc3a21b5c3, type: 3}
+  m_Script: {fileID: 1757538541, guid: 695a61d437ee36d40b22169482e6f146, type: 3}
   m_Name: Microsoft.Mesh.VisualScripting.VisualScriptingUploaderExtension
   m_EditorClassIdentifier: 
   Enabled: 1
+  blockPlayModeOnValidityErrors: 1
+  blockPlayModeOnCorrectnessErrors: 1
+  treatCorrectnessErrorsAsValidationWarnings: 0
