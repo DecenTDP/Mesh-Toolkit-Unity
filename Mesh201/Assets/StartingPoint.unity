@@ -1030,6 +1030,11 @@ PrefabInstance:
       propertyPath: equippableSettings.MaxThrowVelocityVR
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3920565425949256720, guid: 0a78e2efcefa7ad4c8beb2295da6f0f6,
+        type: 3}
+      propertyPath: hoverIKSettings.CustomHandPose.HandPoseSize
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3813684049337212059, guid: 0a78e2efcefa7ad4c8beb2295da6f0f6, type: 3}
     - {fileID: 7578591474127698385, guid: 0a78e2efcefa7ad4c8beb2295da6f0f6, type: 3}
